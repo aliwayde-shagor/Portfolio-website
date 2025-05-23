@@ -248,3 +248,104 @@ body {
   text-align: center;
   margin-top: 10px;
 }
+.education-section {
+  width: 980px;
+  margin: auto;
+  margin-top: 20px;
+}
+.edu-title {
+  text-align: center;
+  margin-top: 30px;
+}
+.education-details {
+  width: 780px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.diploma {
+  padding: 20px;
+  margin-top: 20px;
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.diploma:hover {
+  transform: scale(1.09);
+}
+.diploma-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.institute-name {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: silver;
+}
+.department {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: silver;
+}
+.session {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: silver;
+}
+.semester {
+  font-size: 16px;
+  color: silver;
+}
+.start {
+  margin-top: 10px;
+  font-size: 16px;
+  color: silver;
+  text-align: end;
+}
+
+@media screen and (max-width: 576px) {
+  .body {
+    background-color: white;
+  }
+  .nav-bar {
+    flex-direction: column;
+    max-width: 570px;
+  }
+  .nav-list {
+    margin-top: 40px;
+  }
+  .banner {
+    flex-direction: column;
+    max-width: 570px;
+    margin-top: -30px;
+  }
+  .banner-text-section {
+    margin-left: 180px;
+  }
+  .banner-imges {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  /* start about section */
+  .about-section {
+    flex-direction: column;
+  }
+  .about-description {
+    width: 570px;
+  }
+  .skill-sections {
+    flex-direction: column;
+    gap: 25px;
+    width: 570px;
+    margin-left: 100px;
+  }
+
+  .works-imges-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .education-details {
+    flex-direction: column;
+  }
+}
